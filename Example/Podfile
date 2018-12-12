@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'ZZFadeAnimationScrollView_Example' do
+  pod 'ZZFadeAnimationScrollView', :path => '../'
+
+  target 'ZZFadeAnimationScrollView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
