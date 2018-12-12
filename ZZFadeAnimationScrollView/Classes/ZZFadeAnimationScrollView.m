@@ -8,6 +8,7 @@
 
 #import "ZZFadeAnimationScrollView.h"
 #import "ZZCollectionFadeCell.h"
+#import <SDWebImage/UIImageView+WebCache.h>
 
 static NSString * const CollectionFadeCellID = @"CollectionFadeCellID";
 
@@ -42,7 +43,7 @@ static NSString * const CollectionFadeCellID = @"CollectionFadeCellID";
     self.colletionView.frame = self.bounds;
 }
 
-- (void)setURLs:(NSArray<NSString *> *)URLs{
+- (void)setURLs:(NSArray<NSURL *> *)URLs{
     _URLs = URLs;
 
     [self.colletionView reloadData];
@@ -50,9 +51,8 @@ static NSString * const CollectionFadeCellID = @"CollectionFadeCellID";
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
     ZZCollectionFadeCell * fadeCell = [collectionView dequeueReusableCellWithReuseIdentifier:CollectionFadeCellID forIndexPath:indexPath];
-    NSString *path = self.URLs[indexPath.row];
-    UIImage * img = [UIImage imageWithContentsOfFile:path];
-    fadeCell.imgView.image = img;
+    NSURL *url = self.URLs[indexPath.row];
+    [fadeCell.imgView sd_setImageWithURL:url];
     
     if (self.animationScrollDataSoure && [self.animationScrollDataSoure respondsToSelector:@selector(fadeAnimationView:indexPath:)]) {
         fadeCell.subPlaceHolderView =

@@ -7,16 +7,77 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0870E5658FB5598370D3A08B16125851 /* Pods-ZZFadeAnimationScrollView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB065A9B4FC0AD84BCBD92DDC5C3EBE /* Pods-ZZFadeAnimationScrollView_Example-dummy.m */; };
-		35BB7795BE347CDB7BB5FBE41C71C94E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		4457DD0D8410050A11409E780198A67E /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 766775AA0A50415B7ED5E34DBDFA28CE /* ReplaceMe.m */; };
+		0596CFD5902D44BB3664331337A29918 /* SDWebImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E7F986079B1F10E7BF47146906B5EA0 /* SDWebImageDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0840432A28694CA589E962C4B1823C1D /* SDWebImageCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = ED9F654B1721CC52C147286614CD7DBF /* SDWebImageCoder.m */; };
+		09B50141293A87152CB2AEEFBD45E607 /* UIImage+ForceDecode.h in Headers */ = {isa = PBXBuildFile; fileRef = F91D1D23A154BCB4DA9B46ABE3025A53 /* UIImage+ForceDecode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E3207255EA1D839832B5E63FA5EA0AF /* SDWebImage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 20AF8B4983CFAB24A28410C95B331D69 /* SDWebImage-dummy.m */; };
+		0E9268F334B3167D89879DFD763839C9 /* ZZCollectionFadeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EF2FDC39A2FB6E499C52405E78C76BB /* ZZCollectionFadeCell.m */; };
+		165F663662D8891504D21E715FF24D90 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 02356DBEE78161CD16A787EC599B3908 /* UIImageView+WebCache.m */; };
+		16B9FC07FC5F913F5A99AA13DEFE93DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2F8173E1160A17D38E90F61A8CCE102 /* Foundation.framework */; };
+		18119C20863D76DEF79DBCF23D3AC7CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2F8173E1160A17D38E90F61A8CCE102 /* Foundation.framework */; };
+		1DB09DD0701F89E4533557858E1F79E5 /* Pods-ZZFadeAnimationScrollView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A8C2AF9C5BC87B710607091FAC9EA26 /* Pods-ZZFadeAnimationScrollView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26DEF03E9188A051EB327E510E42E95B /* SDWebImageFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = A0BFADA7BEA6198A1D63AFA6EEAD22C1 /* SDWebImageFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28049BA5607DB744103594DAB6CA641F /* ZZCollectionFadeCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B35119ECA00526D949BDC31C14EB6E5 /* ZZCollectionFadeCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D676337F4F88EA15E01B889E9A16856 /* UIImage+GIF.h in Headers */ = {isa = PBXBuildFile; fileRef = 1046AE6E70E6F9193DCA12665C97498C /* UIImage+GIF.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D9FE29D08A156394E4746C024A5FAA8 /* ZZFadeAnimationScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 241757C51059F7232170B450629F305B /* ZZFadeAnimationScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E41E91DCA293ED3048B3D235453F113 /* SDWebImageCompat.h in Headers */ = {isa = PBXBuildFile; fileRef = 07F9F609611642409A92A22C629F294F /* SDWebImageCompat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32802C53BEE446069EF86A2ED32026C1 /* SDWebImage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E398CF1CB81172808A4BC994DFCEC383 /* SDWebImage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35BB7795BE347CDB7BB5FBE41C71C94E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2F8173E1160A17D38E90F61A8CCE102 /* Foundation.framework */; };
+		35FC510959A4F63FCCB7580C3640CD59 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A6247661BD0EBA180F86A93AC24F45A /* ImageIO.framework */; };
+		382C4E650377D0D7F18230AEA9111666 /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = F45D866B645CF1E845C397984E499682 /* SDWebImageCompat.m */; };
+		39FA5CCC8950CF38B0B4261C19CAA1AA /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = D71C9A1CE70C55049350CBC0E5A89CE6 /* UIImage+GIF.m */; };
+		3E956E9BA00AF735D71A2CBCCAA997D3 /* SDWebImageImageIOCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = B6767104C1FCE712A65D570289484FC2 /* SDWebImageImageIOCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		41DE0FDCB30EEC30555D6F5BB56FB7D3 /* SDWebImageCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 57A526FB1CE6377077D60EE4C6148515 /* SDWebImageCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		450108D06012F14F8927E00D1C2E24E3 /* SDWebImageGIFCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 734C3DA88EE2E9541FEC6D97CB0148E3 /* SDWebImageGIFCoder.m */; };
+		45027EAB87158F27FA6DD17A1E8FDB5A /* NSImage+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 013A7EA6027B2098D2A66A586DB8DB4D /* NSImage+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4514279F67EDF8982C7B011E3924576F /* SDWebImageCoderHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 3343DA38013ACA3779FD4B4A2BB65C70 /* SDWebImageCoderHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55D47B299F3D31DE9D3030C29C742430 /* SDWebImageCoderHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 48A6943A4394C4051BDFD2A4F1B3ADF6 /* SDWebImageCoderHelper.m */; };
 		57022EC96030EFEAFFE6EC165AE2B850 /* Pods-ZZFadeAnimationScrollView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 63FB8944A08D8A89AF31ABC683F46A78 /* Pods-ZZFadeAnimationScrollView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B6F0EF0C629341E2DB5C610645CC326 /* ZZFadeAnimationScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = E66A030E47608E29B68B803DF638C060 /* ZZFadeAnimationScrollView.m */; };
+		5D8820F03D7FC7581B63B346B60999C1 /* UIView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD38D14CEE1017CC1DE8F8BFE438B9C /* UIView+WebCache.m */; };
+		631F17D10A04077F850AD34C768A1FEE /* SDImageCacheConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = CC598E0D6818B11DD5DC708D3F3A6883 /* SDImageCacheConfig.m */; };
+		6729576210CE7482904D989225F6F1D6 /* SDWebImageDownloaderOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 4901C35B74FFB53AEF0BDC868F710834 /* SDWebImageDownloaderOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6AB94A5A75FF3ADCC05379FEF7D11F8A /* SDWebImagePrefetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = EA12ACD3279C672484691833E5BF97FB /* SDWebImagePrefetcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6DC48E0FB3CCEDFF2A8CF1616F5CFB7F /* ZZFadeAnimationScrollView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 18029E4DC001E21FEC14B9DFE0C9527D /* ZZFadeAnimationScrollView-dummy.m */; };
+		6FA9B0E057CA6EEF1F0D5B69E753D46B /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 187351004E3F6054A9410D8CBAD04D66 /* SDWebImageDownloader.m */; };
+		71C8953C0DB6169359B0DD0006EE2DFA /* UIImage+ForceDecode.m in Sources */ = {isa = PBXBuildFile; fileRef = 762FDA22A2618EA78A4A99A3F1F272C8 /* UIImage+ForceDecode.m */; };
+		71FAAE391502473A29DD17DADD37B544 /* SDWebImageCodersManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EBA4A1BCD3751357F96AC035A739D502 /* SDWebImageCodersManager.m */; };
+		7523F5CF4D11630D72104E45234306FF /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = 62A29242F48BA6484D8142E49C405C54 /* NSData+ImageContentType.m */; };
+		75D9F5A6BB60C014C24AB075CDF041C0 /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DEAE6694784C1E192E792795522C98E /* SDWebImageManager.m */; };
+		7A3EA03028A5F25E5D937C521AAE2CF2 /* SDWebImageCodersManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B770771C608F3B0FE3322A0BA03A5803 /* SDWebImageCodersManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7C0EF1A11C124BDADFC48AE827C16EF4 /* Pods-ZZFadeAnimationScrollView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BE3C25400AF2F8A750FFE1F5F4A0B079 /* Pods-ZZFadeAnimationScrollView_Tests-dummy.m */; };
-		8DA82AC8857CEBA97870C08A03BCBF57 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		96B9B3886F83E8B1034D92F78809AB4A /* Pods-ZZFadeAnimationScrollView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A8C2AF9C5BC87B710607091FAC9EA26 /* Pods-ZZFadeAnimationScrollView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F071A90486329AA42A3EB97889666565 /* ZZFadeAnimationScrollView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8D97FC833DB5F70EB39A2D8EE3690F /* ZZFadeAnimationScrollView-dummy.m */; };
-		F7D94863CCFAE670F615FFA033CDB410 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		FAE36CEC12962BF8317B1C9FE0FF6616 /* ZZFadeAnimationScrollView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A0A5C5B3FFC4878A9EEA60AC0DEBE578 /* ZZFadeAnimationScrollView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7DFB49851A7A2D69F673585CE0B04775 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2F8173E1160A17D38E90F61A8CCE102 /* Foundation.framework */; };
+		88DDFFF5B20E8347367D062842AE9A93 /* NSButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A8D4876A10332B9C5B5CB22B36C938 /* NSButton+WebCache.m */; };
+		8CEF5F86A6A9261FF2DB89B11CD4EEBB /* NSData+ImageContentType.h in Headers */ = {isa = PBXBuildFile; fileRef = 8282929CCF36A9E7F871E7843D578686 /* NSData+ImageContentType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E6A9BE392D65F71C77EB24754D1291E /* UIImageView+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = FCE1FDA5BDBFF117AB7E7B51EC3F750D /* UIImageView+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90C61CB0A107A55BBF2D1E93A3265CC5 /* SDWebImageOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D46AEE64BA645CB9605EAC174EE4E8E /* SDWebImageOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		924066E0CEF0175D8CC47668B2C7F1EB /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D51263AEF33F8BF027FB9BD35AFF704B /* SDWebImage.framework */; };
+		930085DA8D7B49F8C9BBB1787F88038F /* SDWebImageTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 57E27B00C17DFF5342687CA00413DAC2 /* SDWebImageTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94304BFAB8D96A15545FB574E4C7C3A4 /* SDAnimatedImageRep.m in Sources */ = {isa = PBXBuildFile; fileRef = 43BBE11E556856E28F0F15A8E2661AF2 /* SDAnimatedImageRep.m */; };
+		97C20557F348C280D5EA2BB4F2B01027 /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9205063853923A43BEA78F70A9881C /* SDWebImagePrefetcher.m */; };
+		9C19A474EC98442D201BDC098E7C2921 /* ZZFadeAnimationScrollView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 76F78214AA72E81ABEFD46867CDF0DBA /* ZZFadeAnimationScrollView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A41AF799838BBAFC67BAFDE3AE08D8D5 /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E06730A8EC6D03D612A708A7382699 /* SDImageCache.m */; };
+		ACF91BBA8F1E36E209A9C8D7096B11E4 /* UIImage+MultiFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = B0462EC0CF5495E6F9909C42006DDACB /* UIImage+MultiFormat.m */; };
+		AEF24AE02A7E2FD808A09A1059495F32 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 396B5B5A50A2B9C2B5A2BDF97F6792D1 /* UIView+WebCacheOperation.m */; };
+		B8904E08885690DA324AA05AA7C82C45 /* NSButton+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = B4D416D864E6EFEE77FF4C25DC003882 /* NSButton+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA1AEC9B0063A876EF308CC771E6DC09 /* SDImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 0906D08281D20DB090281EC2DEB64F37 /* SDImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF387A40C77C13CA40536E92E729594D /* Pods-ZZFadeAnimationScrollView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB065A9B4FC0AD84BCBD92DDC5C3EBE /* Pods-ZZFadeAnimationScrollView_Example-dummy.m */; };
+		C880F0A1097AA8125D6E896F6BDB479B /* NSImage+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 9187633E7D3B565B6DD18987CE547D8A /* NSImage+WebCache.m */; };
+		CD898EDA16598BACC1848F0A00DD6F90 /* UIImage+MultiFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = D56DB7023C499F9F2772C7B6584F725E /* UIImage+MultiFormat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE72A73FC9C6E58F7E904D43BC8EF34C /* SDAnimatedImageRep.h in Headers */ = {isa = PBXBuildFile; fileRef = C2ED1B72DE451BFC1B87C557E6BBC04F /* SDAnimatedImageRep.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D078E8E2CDA28324BE96212D97549EE3 /* UIView+WebCacheOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C35061D0122913AAEFEF2373CB51976 /* UIView+WebCacheOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D34CEAC497ACCFAC1C79334BD2219CA4 /* SDWebImageImageIOCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B4BDE292BB00F4E814F68B2C2F75EF7 /* SDWebImageImageIOCoder.m */; };
+		D4DA36B0259156499FAA54856C2C70AA /* UIButton+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 413FADCDF24126D21DEE85687A9F2B30 /* UIButton+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D74CDB3FA796FDC205DC83C5097716EE /* SDWebImageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D777652FEAE2FBAF933A6BF0B4CCF528 /* SDWebImageManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E050643021F241D7099ACEE3FD1D312B /* SDImageCacheConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = AD594E84E49E0E8D28B5D0E9A1E2267A /* SDImageCacheConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E13CEA7B1C81BF50776F9F6EA0EFE34E /* SDWebImageTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 957DE53A94031623728D3DF3AB2C4433 /* SDWebImageTransition.m */; };
+		E462A27AFFEA0EDBB14D2A6FAC9C798F /* SDWebImageDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBAAACD2758031DFE2F566308FE9AB9 /* SDWebImageDownloaderOperation.m */; };
+		E56B905AD827B0CE59209FB82DC44924 /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = CAA4864BECB9CE289F8949B92E4030B8 /* UIButton+WebCache.m */; };
+		E5ABC05329FADE7223FE611F14934E59 /* SDWebImageFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = EE37ABE7A69E291E1C46A5DD9EA6CC34 /* SDWebImageFrame.m */; };
+		F777B1529ACB752142ECDF1217366BD6 /* UIView+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = BFD00E5BDED1658D1EC2246C274628A0 /* UIView+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7F687742E094CEA6EA7FE7CAFEA9688 /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 74D14B8810554BF0C524166FDD41C9FC /* UIImageView+HighlightedWebCache.m */; };
+		F839AE7BA527C7F260281593C1D47491 /* SDWebImageGIFCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = E3A4F923D4C314E45B7D0779B2E3A2C0 /* SDWebImageGIFCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8F2C668CD63A2242862D6DB34381C83 /* UIImageView+HighlightedWebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5F89792B0615A7E8450080A7046B64 /* UIImageView+HighlightedWebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,54 +85,133 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B418243188BF11C56F5D8D4990EDEA3A;
+			remoteGlobalIDString = E6D3182F5367883F9601300DAA0C6205;
 			remoteInfo = "Pods-ZZFadeAnimationScrollView_Example";
 		};
-		814E1C55D87C91C7BE5DB0DEBE136EE7 /* PBXContainerItemProxy */ = {
+		263FBAC414933AF91851D354167212AD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1132BC86CE8A2A7F97D43B4B9213CE6F;
+			remoteGlobalIDString = 9A731E092EC121CEC9B7E4E369C3DD06;
+			remoteInfo = SDWebImage;
+		};
+		7B0D2DF8F2DF5A823706FC20C02B5BB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB342BF5BEE7A83421094558BFBC3F00;
 			remoteInfo = ZZFadeAnimationScrollView;
+		};
+		C58D6E9B79EE33530D4A4806195247D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A731E092EC121CEC9B7E4E369C3DD06;
+			remoteInfo = SDWebImage;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04B1F86A8772F5EB8471DA3F5AFB06E2 /* ZZFadeAnimationScrollView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = ZZFadeAnimationScrollView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		04B5D169862399A3C63A70526857E885 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		013A7EA6027B2098D2A66A586DB8DB4D /* NSImage+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSImage+WebCache.h"; path = "SDWebImage/NSImage+WebCache.h"; sourceTree = "<group>"; };
+		02356DBEE78161CD16A787EC599B3908 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+WebCache.m"; path = "SDWebImage/UIImageView+WebCache.m"; sourceTree = "<group>"; };
+		07F9F609611642409A92A22C629F294F /* SDWebImageCompat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageCompat.h; path = SDWebImage/SDWebImageCompat.h; sourceTree = "<group>"; };
+		0906D08281D20DB090281EC2DEB64F37 /* SDImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCache.h; path = SDWebImage/SDImageCache.h; sourceTree = "<group>"; };
+		1046AE6E70E6F9193DCA12665C97498C /* UIImage+GIF.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+GIF.h"; path = "SDWebImage/UIImage+GIF.h"; sourceTree = "<group>"; };
 		1242F89612D7DEF5100D47077ADBB8CC /* Pods-ZZFadeAnimationScrollView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZZFadeAnimationScrollView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		1EBB7A656AA254372DD05A7270D98B9A /* Pods_ZZFadeAnimationScrollView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZZFadeAnimationScrollView_Tests.framework; path = "Pods-ZZFadeAnimationScrollView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18029E4DC001E21FEC14B9DFE0C9527D /* ZZFadeAnimationScrollView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZZFadeAnimationScrollView-dummy.m"; sourceTree = "<group>"; };
+		187351004E3F6054A9410D8CBAD04D66 /* SDWebImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloader.m; path = SDWebImage/SDWebImageDownloader.m; sourceTree = "<group>"; };
+		1A6247661BD0EBA180F86A93AC24F45A /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
+		1B35119ECA00526D949BDC31C14EB6E5 /* ZZCollectionFadeCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZCollectionFadeCell.h; path = ZZFadeAnimationScrollView/Classes/ZZCollectionFadeCell.h; sourceTree = "<group>"; };
+		1B4BDE292BB00F4E814F68B2C2F75EF7 /* SDWebImageImageIOCoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageImageIOCoder.m; path = SDWebImage/SDWebImageImageIOCoder.m; sourceTree = "<group>"; };
+		1CD76676C331E7DA77A337A6C3256825 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E46519280EA234CF167FD77F64DADD2 /* Pods_ZZFadeAnimationScrollView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZZFadeAnimationScrollView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EF2FDC39A2FB6E499C52405E78C76BB /* ZZCollectionFadeCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZZCollectionFadeCell.m; path = ZZFadeAnimationScrollView/Classes/ZZCollectionFadeCell.m; sourceTree = "<group>"; };
 		1FF4F8503DC35508EBBB388F060CE79C /* Pods-ZZFadeAnimationScrollView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZZFadeAnimationScrollView_Tests-resources.sh"; sourceTree = "<group>"; };
-		237C20A117364325F09A2A690D4D48E2 /* ZZFadeAnimationScrollView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZZFadeAnimationScrollView.modulemap; sourceTree = "<group>"; };
-		254A9DD9811E439D4B6CEB5AB2E62359 /* Pods_ZZFadeAnimationScrollView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZZFadeAnimationScrollView_Example.framework; path = "Pods-ZZFadeAnimationScrollView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20AF8B4983CFAB24A28410C95B331D69 /* SDWebImage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SDWebImage-dummy.m"; sourceTree = "<group>"; };
+		241757C51059F7232170B450629F305B /* ZZFadeAnimationScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZFadeAnimationScrollView.h; path = ZZFadeAnimationScrollView/Classes/ZZFadeAnimationScrollView.h; sourceTree = "<group>"; };
+		295CD4D64B68F264572132B1AEBD64C6 /* ZZFadeAnimationScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZZFadeAnimationScrollView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B6DDADD22CD854A2C08A64C425D012A /* Pods-ZZFadeAnimationScrollView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZZFadeAnimationScrollView_Example-frameworks.sh"; sourceTree = "<group>"; };
-		36AF4A48311FF7D725DCE40F283C1F35 /* ZZFadeAnimationScrollView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZZFadeAnimationScrollView-prefix.pch"; sourceTree = "<group>"; };
-		3A8D97FC833DB5F70EB39A2D8EE3690F /* ZZFadeAnimationScrollView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZZFadeAnimationScrollView-dummy.m"; sourceTree = "<group>"; };
+		30D03175A5A9E06CC165EAC345E55B56 /* SDWebImage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDWebImage-prefix.pch"; sourceTree = "<group>"; };
+		3343DA38013ACA3779FD4B4A2BB65C70 /* SDWebImageCoderHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageCoderHelper.h; path = SDWebImage/SDWebImageCoderHelper.h; sourceTree = "<group>"; };
+		396B5B5A50A2B9C2B5A2BDF97F6792D1 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+WebCacheOperation.m"; path = "SDWebImage/UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
 		3DB7FA33CF787295B6717DFC2AB79F66 /* Pods-ZZFadeAnimationScrollView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZZFadeAnimationScrollView_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		3F2D15EEAD7AF38E41D38A28D4893082 /* Pods-ZZFadeAnimationScrollView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZZFadeAnimationScrollView_Tests.modulemap"; sourceTree = "<group>"; };
+		413AA91EA703578C1616BBF32A54341A /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		413FADCDF24126D21DEE85687A9F2B30 /* UIButton+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+WebCache.h"; path = "SDWebImage/UIButton+WebCache.h"; sourceTree = "<group>"; };
+		43BBE11E556856E28F0F15A8E2661AF2 /* SDAnimatedImageRep.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDAnimatedImageRep.m; path = SDWebImage/SDAnimatedImageRep.m; sourceTree = "<group>"; };
+		46474AD369242A80804775449682635D /* SDWebImage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SDWebImage.modulemap; sourceTree = "<group>"; };
+		48A6943A4394C4051BDFD2A4F1B3ADF6 /* SDWebImageCoderHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageCoderHelper.m; path = SDWebImage/SDWebImageCoderHelper.m; sourceTree = "<group>"; };
+		4901C35B74FFB53AEF0BDC868F710834 /* SDWebImageDownloaderOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloaderOperation.h; path = SDWebImage/SDWebImageDownloaderOperation.h; sourceTree = "<group>"; };
 		4A8C2AF9C5BC87B710607091FAC9EA26 /* Pods-ZZFadeAnimationScrollView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZZFadeAnimationScrollView_Example-umbrella.h"; sourceTree = "<group>"; };
 		4D43F4C8C12E0A5CF4293E617F67E400 /* Pods-ZZFadeAnimationScrollView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZZFadeAnimationScrollView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		55A8D4876A10332B9C5B5CB22B36C938 /* NSButton+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSButton+WebCache.m"; path = "SDWebImage/NSButton+WebCache.m"; sourceTree = "<group>"; };
 		5666A187762182307C55B3829FD4F28A /* Pods-ZZFadeAnimationScrollView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZZFadeAnimationScrollView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		56ADB16FB73D40852606237DAD09AED5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57A526FB1CE6377077D60EE4C6148515 /* SDWebImageCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageCoder.h; path = SDWebImage/SDWebImageCoder.h; sourceTree = "<group>"; };
+		57E27B00C17DFF5342687CA00413DAC2 /* SDWebImageTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageTransition.h; path = SDWebImage/SDWebImageTransition.h; sourceTree = "<group>"; };
 		5814888D8B1FA5C9B03161D2AF6C54B8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C35061D0122913AAEFEF2373CB51976 /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+WebCacheOperation.h"; path = "SDWebImage/UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
+		5D46AEE64BA645CB9605EAC174EE4E8E /* SDWebImageOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageOperation.h; path = SDWebImage/SDWebImageOperation.h; sourceTree = "<group>"; };
 		5E75B45AB30BBAD1A3A8F3E4F9E4795E /* Pods-ZZFadeAnimationScrollView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZZFadeAnimationScrollView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		61CC7D3A395061A445DCFD26971A4542 /* Pods-ZZFadeAnimationScrollView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZZFadeAnimationScrollView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		62A29242F48BA6484D8142E49C405C54 /* NSData+ImageContentType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+ImageContentType.m"; path = "SDWebImage/NSData+ImageContentType.m"; sourceTree = "<group>"; };
 		63FB8944A08D8A89AF31ABC683F46A78 /* Pods-ZZFadeAnimationScrollView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZZFadeAnimationScrollView_Tests-umbrella.h"; sourceTree = "<group>"; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6AF6552AD69BD95CDA5172533013FAB6 /* Pods-ZZFadeAnimationScrollView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZZFadeAnimationScrollView_Example.modulemap"; sourceTree = "<group>"; };
-		766775AA0A50415B7ED5E34DBDFA28CE /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = ZZFadeAnimationScrollView/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		962565D7B0671B016490B9624486E460 /* ZZFadeAnimationScrollView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZZFadeAnimationScrollView.xcconfig; sourceTree = "<group>"; };
+		6CC8AF511413D489D7FCCC35B792B21A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		71E06730A8EC6D03D612A708A7382699 /* SDImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCache.m; path = SDWebImage/SDImageCache.m; sourceTree = "<group>"; };
+		734C3DA88EE2E9541FEC6D97CB0148E3 /* SDWebImageGIFCoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageGIFCoder.m; path = SDWebImage/SDWebImageGIFCoder.m; sourceTree = "<group>"; };
+		74D14B8810554BF0C524166FDD41C9FC /* UIImageView+HighlightedWebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+HighlightedWebCache.m"; path = "SDWebImage/UIImageView+HighlightedWebCache.m"; sourceTree = "<group>"; };
+		762FDA22A2618EA78A4A99A3F1F272C8 /* UIImage+ForceDecode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ForceDecode.m"; path = "SDWebImage/UIImage+ForceDecode.m"; sourceTree = "<group>"; };
+		76F78214AA72E81ABEFD46867CDF0DBA /* ZZFadeAnimationScrollView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZZFadeAnimationScrollView-umbrella.h"; sourceTree = "<group>"; };
+		8282929CCF36A9E7F871E7843D578686 /* NSData+ImageContentType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+ImageContentType.h"; path = "SDWebImage/NSData+ImageContentType.h"; sourceTree = "<group>"; };
+		8D9205063853923A43BEA78F70A9881C /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImagePrefetcher.m; path = SDWebImage/SDWebImagePrefetcher.m; sourceTree = "<group>"; };
+		8DEAE6694784C1E192E792795522C98E /* SDWebImageManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageManager.m; path = SDWebImage/SDWebImageManager.m; sourceTree = "<group>"; };
+		8E7F986079B1F10E7BF47146906B5EA0 /* SDWebImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloader.h; path = SDWebImage/SDWebImageDownloader.h; sourceTree = "<group>"; };
+		9187633E7D3B565B6DD18987CE547D8A /* NSImage+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSImage+WebCache.m"; path = "SDWebImage/NSImage+WebCache.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		957DE53A94031623728D3DF3AB2C4433 /* SDWebImageTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageTransition.m; path = SDWebImage/SDWebImageTransition.m; sourceTree = "<group>"; };
 		9BB065A9B4FC0AD84BCBD92DDC5C3EBE /* Pods-ZZFadeAnimationScrollView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZZFadeAnimationScrollView_Example-dummy.m"; sourceTree = "<group>"; };
-		9F07F76A9C91CC45BC03E691297DCEC3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		A0A5C5B3FFC4878A9EEA60AC0DEBE578 /* ZZFadeAnimationScrollView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZZFadeAnimationScrollView-umbrella.h"; sourceTree = "<group>"; };
+		9C29BCFE4492DA28B0A5804965D805BD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EC0AAFBC1F9CE08AA4393AF516CE6EB /* ZZFadeAnimationScrollView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = ZZFadeAnimationScrollView.podspec; sourceTree = "<group>"; };
+		A0BFADA7BEA6198A1D63AFA6EEAD22C1 /* SDWebImageFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageFrame.h; path = SDWebImage/SDWebImageFrame.h; sourceTree = "<group>"; };
 		A3EA6C8B83C9BDB2BE6A2EA5EDEAD9D7 /* Pods-ZZFadeAnimationScrollView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZZFadeAnimationScrollView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		AA6F65B7AE880339EADEBA0AA9238A3B /* ZZFadeAnimationScrollView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZZFadeAnimationScrollView.modulemap; sourceTree = "<group>"; };
+		AD594E84E49E0E8D28B5D0E9A1E2267A /* SDImageCacheConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCacheConfig.h; path = SDWebImage/SDImageCacheConfig.h; sourceTree = "<group>"; };
+		B0462EC0CF5495E6F9909C42006DDACB /* UIImage+MultiFormat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+MultiFormat.m"; path = "SDWebImage/UIImage+MultiFormat.m"; sourceTree = "<group>"; };
+		B3CEB5D134DFBF30159A5E410EB43874 /* ZZFadeAnimationScrollView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZZFadeAnimationScrollView-prefix.pch"; sourceTree = "<group>"; };
+		B4D416D864E6EFEE77FF4C25DC003882 /* NSButton+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSButton+WebCache.h"; path = "SDWebImage/NSButton+WebCache.h"; sourceTree = "<group>"; };
+		B6767104C1FCE712A65D570289484FC2 /* SDWebImageImageIOCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageImageIOCoder.h; path = SDWebImage/SDWebImageImageIOCoder.h; sourceTree = "<group>"; };
+		B770771C608F3B0FE3322A0BA03A5803 /* SDWebImageCodersManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageCodersManager.h; path = SDWebImage/SDWebImageCodersManager.h; sourceTree = "<group>"; };
 		BE3C25400AF2F8A750FFE1F5F4A0B079 /* Pods-ZZFadeAnimationScrollView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZZFadeAnimationScrollView_Tests-dummy.m"; sourceTree = "<group>"; };
+		BFD00E5BDED1658D1EC2246C274628A0 /* UIView+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+WebCache.h"; path = "SDWebImage/UIView+WebCache.h"; sourceTree = "<group>"; };
 		C06D8D9E5D8AE52F19E7C2FB3A41BFA3 /* Pods-ZZFadeAnimationScrollView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZZFadeAnimationScrollView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		CAA21930F93C56684F681285C1CECED1 /* ZZFadeAnimationScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZZFadeAnimationScrollView.framework; path = ZZFadeAnimationScrollView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CCC7704701EF859550CEFF0FFD467BDD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		C2ED1B72DE451BFC1B87C557E6BBC04F /* SDAnimatedImageRep.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDAnimatedImageRep.h; path = SDWebImage/SDAnimatedImageRep.h; sourceTree = "<group>"; };
+		C65814D2C827777A31CF01F1AE127AC8 /* ZZFadeAnimationScrollView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZZFadeAnimationScrollView.xcconfig; sourceTree = "<group>"; };
+		CAA4864BECB9CE289F8949B92E4030B8 /* UIButton+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+WebCache.m"; path = "SDWebImage/UIButton+WebCache.m"; sourceTree = "<group>"; };
+		CBD38D14CEE1017CC1DE8F8BFE438B9C /* UIView+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+WebCache.m"; path = "SDWebImage/UIView+WebCache.m"; sourceTree = "<group>"; };
+		CC598E0D6818B11DD5DC708D3F3A6883 /* SDImageCacheConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCacheConfig.m; path = SDWebImage/SDImageCacheConfig.m; sourceTree = "<group>"; };
+		CEBAAACD2758031DFE2F566308FE9AB9 /* SDWebImageDownloaderOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloaderOperation.m; path = SDWebImage/SDWebImageDownloaderOperation.m; sourceTree = "<group>"; };
+		D51263AEF33F8BF027FB9BD35AFF704B /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D56DB7023C499F9F2772C7B6584F725E /* UIImage+MultiFormat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+MultiFormat.h"; path = "SDWebImage/UIImage+MultiFormat.h"; sourceTree = "<group>"; };
+		D71C9A1CE70C55049350CBC0E5A89CE6 /* UIImage+GIF.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+GIF.m"; path = "SDWebImage/UIImage+GIF.m"; sourceTree = "<group>"; };
+		D777652FEAE2FBAF933A6BF0B4CCF528 /* SDWebImageManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageManager.h; path = SDWebImage/SDWebImageManager.h; sourceTree = "<group>"; };
+		E398CF1CB81172808A4BC994DFCEC383 /* SDWebImage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDWebImage-umbrella.h"; sourceTree = "<group>"; };
+		E3A4F923D4C314E45B7D0779B2E3A2C0 /* SDWebImageGIFCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageGIFCoder.h; path = SDWebImage/SDWebImageGIFCoder.h; sourceTree = "<group>"; };
+		E66A030E47608E29B68B803DF638C060 /* ZZFadeAnimationScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZZFadeAnimationScrollView.m; path = ZZFadeAnimationScrollView/Classes/ZZFadeAnimationScrollView.m; sourceTree = "<group>"; };
+		EA12ACD3279C672484691833E5BF97FB /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImagePrefetcher.h; path = SDWebImage/SDWebImagePrefetcher.h; sourceTree = "<group>"; };
+		EA5F89792B0615A7E8450080A7046B64 /* UIImageView+HighlightedWebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+HighlightedWebCache.h"; path = "SDWebImage/UIImageView+HighlightedWebCache.h"; sourceTree = "<group>"; };
+		EBA4A1BCD3751357F96AC035A739D502 /* SDWebImageCodersManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageCodersManager.m; path = SDWebImage/SDWebImageCodersManager.m; sourceTree = "<group>"; };
+		ED9F654B1721CC52C147286614CD7DBF /* SDWebImageCoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageCoder.m; path = SDWebImage/SDWebImageCoder.m; sourceTree = "<group>"; };
+		EE37ABE7A69E291E1C46A5DD9EA6CC34 /* SDWebImageFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageFrame.m; path = SDWebImage/SDWebImageFrame.m; sourceTree = "<group>"; };
 		EEF2F6D1199731B4B48C2845C338D782 /* Pods-ZZFadeAnimationScrollView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZZFadeAnimationScrollView_Example-resources.sh"; sourceTree = "<group>"; };
+		F2F8173E1160A17D38E90F61A8CCE102 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F45D866B645CF1E845C397984E499682 /* SDWebImageCompat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageCompat.m; path = SDWebImage/SDWebImageCompat.m; sourceTree = "<group>"; };
+		F91D1D23A154BCB4DA9B46ABE3025A53 /* UIImage+ForceDecode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+ForceDecode.h"; path = "SDWebImage/UIImage+ForceDecode.h"; sourceTree = "<group>"; };
 		FB1D61E342A15BD4606E826C4A4E457C /* Pods-ZZFadeAnimationScrollView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZZFadeAnimationScrollView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		FCE1FDA5BDBFF117AB7E7B51EC3F750D /* UIImageView+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+WebCache.h"; path = "SDWebImage/UIImageView+WebCache.h"; sourceTree = "<group>"; };
+		FEC166112DD396EB92FE694B57B996F5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		FFAB6367A50948E283315B28A5B4EDBF /* Pods_ZZFadeAnimationScrollView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZZFadeAnimationScrollView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFC3DC18666EE9E6763834DC3D5C2C64 /* SDWebImage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDWebImage.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,19 +223,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		96568247958DC349802A4B9747299E6F /* Frameworks */ = {
+		1FF18628860454D9C5C1E89BB5533B85 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7D94863CCFAE670F615FFA033CDB410 /* Foundation.framework in Frameworks */,
+				18119C20863D76DEF79DBCF23D3AC7CD /* Foundation.framework in Frameworks */,
+				924066E0CEF0175D8CC47668B2C7F1EB /* SDWebImage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B589A692834DF43FD5F7F15122815651 /* Frameworks */ = {
+		41FFC6321F48CAD3C35C1F3CB58D83B0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8DA82AC8857CEBA97870C08A03BCBF57 /* Foundation.framework in Frameworks */,
+				16B9FC07FC5F913F5A99AA13DEFE93DF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74611D67B2AE9A10D102DD47CD6BB390 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DFB49851A7A2D69F673585CE0B04775 /* Foundation.framework in Frameworks */,
+				35FC510959A4F63FCCB7580C3640CD59 /* ImageIO.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,14 +270,53 @@
 			path = "Target Support Files/Pods-ZZFadeAnimationScrollView_Tests";
 			sourceTree = "<group>";
 		};
-		2D984BBBB37D1C9CB21685A4BF48F5F2 /* Products */ = {
+		23EAA5D571397353D4D311351A2D82BB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				254A9DD9811E439D4B6CEB5AB2E62359 /* Pods_ZZFadeAnimationScrollView_Example.framework */,
-				1EBB7A656AA254372DD05A7270D98B9A /* Pods_ZZFadeAnimationScrollView_Tests.framework */,
-				CAA21930F93C56684F681285C1CECED1 /* ZZFadeAnimationScrollView.framework */,
+				D51263AEF33F8BF027FB9BD35AFF704B /* SDWebImage.framework */,
+				27615043ED1D087576FEF2328FC725AD /* iOS */,
 			);
-			name = Products;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		27615043ED1D087576FEF2328FC725AD /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F2F8173E1160A17D38E90F61A8CCE102 /* Foundation.framework */,
+				1A6247661BD0EBA180F86A93AC24F45A /* ImageIO.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		29C0A7B43C986B27E956AF58BA7C88A5 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9E2CC52D433200844A6E99A4279618D5 /* ZZFadeAnimationScrollView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		322972850BE22D9B70E860AB9D7A4504 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1CD76676C331E7DA77A337A6C3256825 /* Info.plist */,
+				46474AD369242A80804775449682635D /* SDWebImage.modulemap */,
+				FFC3DC18666EE9E6763834DC3D5C2C64 /* SDWebImage.xcconfig */,
+				20AF8B4983CFAB24A28410C95B331D69 /* SDWebImage-dummy.m */,
+				30D03175A5A9E06CC165EAC345E55B56 /* SDWebImage-prefix.pch */,
+				E398CF1CB81172808A4BC994DFCEC383 /* SDWebImage-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SDWebImage";
+			sourceTree = "<group>";
+		};
+		34953C789EA79F0081AD6D7694329D34 /* SDWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				778737FF0BD86A82CAFC9CF3C736CDE6 /* Core */,
+				322972850BE22D9B70E860AB9D7A4504 /* Support Files */,
+			);
+			path = SDWebImage;
 			sourceTree = "<group>";
 		};
 		55F755977AE90237F99E21B74A422663 /* Targets Support Files */ = {
@@ -139,27 +328,85 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		6A43774B4C818AC7CFFD201100BEA33C /* Support Files */ = {
+		62A4E038F4C828324B7221AA28903E9C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				04B5D169862399A3C63A70526857E885 /* Info.plist */,
-				237C20A117364325F09A2A690D4D48E2 /* ZZFadeAnimationScrollView.modulemap */,
-				962565D7B0671B016490B9624486E460 /* ZZFadeAnimationScrollView.xcconfig */,
-				3A8D97FC833DB5F70EB39A2D8EE3690F /* ZZFadeAnimationScrollView-dummy.m */,
-				36AF4A48311FF7D725DCE40F283C1F35 /* ZZFadeAnimationScrollView-prefix.pch */,
-				A0A5C5B3FFC4878A9EEA60AC0DEBE578 /* ZZFadeAnimationScrollView-umbrella.h */,
+				1E46519280EA234CF167FD77F64DADD2 /* Pods_ZZFadeAnimationScrollView_Example.framework */,
+				FFAB6367A50948E283315B28A5B4EDBF /* Pods_ZZFadeAnimationScrollView_Tests.framework */,
+				413AA91EA703578C1616BBF32A54341A /* SDWebImage.framework */,
+				295CD4D64B68F264572132B1AEBD64C6 /* ZZFadeAnimationScrollView.framework */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ZZFadeAnimationScrollView";
+			name = Products;
+			sourceTree = "<group>";
+		};
+		778737FF0BD86A82CAFC9CF3C736CDE6 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				B4D416D864E6EFEE77FF4C25DC003882 /* NSButton+WebCache.h */,
+				55A8D4876A10332B9C5B5CB22B36C938 /* NSButton+WebCache.m */,
+				8282929CCF36A9E7F871E7843D578686 /* NSData+ImageContentType.h */,
+				62A29242F48BA6484D8142E49C405C54 /* NSData+ImageContentType.m */,
+				013A7EA6027B2098D2A66A586DB8DB4D /* NSImage+WebCache.h */,
+				9187633E7D3B565B6DD18987CE547D8A /* NSImage+WebCache.m */,
+				C2ED1B72DE451BFC1B87C557E6BBC04F /* SDAnimatedImageRep.h */,
+				43BBE11E556856E28F0F15A8E2661AF2 /* SDAnimatedImageRep.m */,
+				0906D08281D20DB090281EC2DEB64F37 /* SDImageCache.h */,
+				71E06730A8EC6D03D612A708A7382699 /* SDImageCache.m */,
+				AD594E84E49E0E8D28B5D0E9A1E2267A /* SDImageCacheConfig.h */,
+				CC598E0D6818B11DD5DC708D3F3A6883 /* SDImageCacheConfig.m */,
+				57A526FB1CE6377077D60EE4C6148515 /* SDWebImageCoder.h */,
+				ED9F654B1721CC52C147286614CD7DBF /* SDWebImageCoder.m */,
+				3343DA38013ACA3779FD4B4A2BB65C70 /* SDWebImageCoderHelper.h */,
+				48A6943A4394C4051BDFD2A4F1B3ADF6 /* SDWebImageCoderHelper.m */,
+				B770771C608F3B0FE3322A0BA03A5803 /* SDWebImageCodersManager.h */,
+				EBA4A1BCD3751357F96AC035A739D502 /* SDWebImageCodersManager.m */,
+				07F9F609611642409A92A22C629F294F /* SDWebImageCompat.h */,
+				F45D866B645CF1E845C397984E499682 /* SDWebImageCompat.m */,
+				8E7F986079B1F10E7BF47146906B5EA0 /* SDWebImageDownloader.h */,
+				187351004E3F6054A9410D8CBAD04D66 /* SDWebImageDownloader.m */,
+				4901C35B74FFB53AEF0BDC868F710834 /* SDWebImageDownloaderOperation.h */,
+				CEBAAACD2758031DFE2F566308FE9AB9 /* SDWebImageDownloaderOperation.m */,
+				A0BFADA7BEA6198A1D63AFA6EEAD22C1 /* SDWebImageFrame.h */,
+				EE37ABE7A69E291E1C46A5DD9EA6CC34 /* SDWebImageFrame.m */,
+				E3A4F923D4C314E45B7D0779B2E3A2C0 /* SDWebImageGIFCoder.h */,
+				734C3DA88EE2E9541FEC6D97CB0148E3 /* SDWebImageGIFCoder.m */,
+				B6767104C1FCE712A65D570289484FC2 /* SDWebImageImageIOCoder.h */,
+				1B4BDE292BB00F4E814F68B2C2F75EF7 /* SDWebImageImageIOCoder.m */,
+				D777652FEAE2FBAF933A6BF0B4CCF528 /* SDWebImageManager.h */,
+				8DEAE6694784C1E192E792795522C98E /* SDWebImageManager.m */,
+				5D46AEE64BA645CB9605EAC174EE4E8E /* SDWebImageOperation.h */,
+				EA12ACD3279C672484691833E5BF97FB /* SDWebImagePrefetcher.h */,
+				8D9205063853923A43BEA78F70A9881C /* SDWebImagePrefetcher.m */,
+				57E27B00C17DFF5342687CA00413DAC2 /* SDWebImageTransition.h */,
+				957DE53A94031623728D3DF3AB2C4433 /* SDWebImageTransition.m */,
+				413FADCDF24126D21DEE85687A9F2B30 /* UIButton+WebCache.h */,
+				CAA4864BECB9CE289F8949B92E4030B8 /* UIButton+WebCache.m */,
+				F91D1D23A154BCB4DA9B46ABE3025A53 /* UIImage+ForceDecode.h */,
+				762FDA22A2618EA78A4A99A3F1F272C8 /* UIImage+ForceDecode.m */,
+				1046AE6E70E6F9193DCA12665C97498C /* UIImage+GIF.h */,
+				D71C9A1CE70C55049350CBC0E5A89CE6 /* UIImage+GIF.m */,
+				D56DB7023C499F9F2772C7B6584F725E /* UIImage+MultiFormat.h */,
+				B0462EC0CF5495E6F9909C42006DDACB /* UIImage+MultiFormat.m */,
+				EA5F89792B0615A7E8450080A7046B64 /* UIImageView+HighlightedWebCache.h */,
+				74D14B8810554BF0C524166FDD41C9FC /* UIImageView+HighlightedWebCache.m */,
+				FCE1FDA5BDBFF117AB7E7B51EC3F750D /* UIImageView+WebCache.h */,
+				02356DBEE78161CD16A787EC599B3908 /* UIImageView+WebCache.m */,
+				BFD00E5BDED1658D1EC2246C274628A0 /* UIView+WebCache.h */,
+				CBD38D14CEE1017CC1DE8F8BFE438B9C /* UIView+WebCache.m */,
+				5C35061D0122913AAEFEF2373CB51976 /* UIView+WebCacheOperation.h */,
+				396B5B5A50A2B9C2B5A2BDF97F6792D1 /* UIView+WebCacheOperation.m */,
+			);
+			name = Core;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				A435B15260E132FA70E61944AC08BFB2 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				2D984BBBB37D1C9CB21685A4BF48F5F2 /* Products */,
+				29C0A7B43C986B27E956AF58BA7C88A5 /* Development Pods */,
+				23EAA5D571397353D4D311351A2D82BB /* Frameworks */,
+				BF4B13718B20D23D5B220FA33C2583D8 /* Pods */,
+				62A4E038F4C828324B7221AA28903E9C /* Products */,
 				55F755977AE90237F99E21B74A422663 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -182,59 +429,105 @@
 			path = "Target Support Files/Pods-ZZFadeAnimationScrollView_Example";
 			sourceTree = "<group>";
 		};
-		A435B15260E132FA70E61944AC08BFB2 /* Development Pods */ = {
+		9E2CC52D433200844A6E99A4279618D5 /* ZZFadeAnimationScrollView */ = {
 			isa = PBXGroup;
 			children = (
-				ADA59428DF3F8FD17C99B6915E725595 /* ZZFadeAnimationScrollView */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		ADA59428DF3F8FD17C99B6915E725595 /* ZZFadeAnimationScrollView */ = {
-			isa = PBXGroup;
-			children = (
-				766775AA0A50415B7ED5E34DBDFA28CE /* ReplaceMe.m */,
-				BC660474231700EE3468F2FFC24C6C72 /* Pod */,
-				6A43774B4C818AC7CFFD201100BEA33C /* Support Files */,
+				1B35119ECA00526D949BDC31C14EB6E5 /* ZZCollectionFadeCell.h */,
+				1EF2FDC39A2FB6E499C52405E78C76BB /* ZZCollectionFadeCell.m */,
+				241757C51059F7232170B450629F305B /* ZZFadeAnimationScrollView.h */,
+				E66A030E47608E29B68B803DF638C060 /* ZZFadeAnimationScrollView.m */,
+				C183847716A6E0C0CDB2D6117E14ED0C /* Pod */,
+				C58BE4220216446046504F01CCBC27E0 /* Support Files */,
 			);
 			name = ZZFadeAnimationScrollView;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		BF4B13718B20D23D5B220FA33C2583D8 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+				34953C789EA79F0081AD6D7694329D34 /* SDWebImage */,
 			);
-			name = Frameworks;
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		BC660474231700EE3468F2FFC24C6C72 /* Pod */ = {
+		C183847716A6E0C0CDB2D6117E14ED0C /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				9F07F76A9C91CC45BC03E691297DCEC3 /* LICENSE */,
-				CCC7704701EF859550CEFF0FFD467BDD /* README.md */,
-				04B1F86A8772F5EB8471DA3F5AFB06E2 /* ZZFadeAnimationScrollView.podspec */,
+				FEC166112DD396EB92FE694B57B996F5 /* LICENSE */,
+				6CC8AF511413D489D7FCCC35B792B21A /* README.md */,
+				9EC0AAFBC1F9CE08AA4393AF516CE6EB /* ZZFadeAnimationScrollView.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+		C58BE4220216446046504F01CCBC27E0 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+				9C29BCFE4492DA28B0A5804965D805BD /* Info.plist */,
+				AA6F65B7AE880339EADEBA0AA9238A3B /* ZZFadeAnimationScrollView.modulemap */,
+				C65814D2C827777A31CF01F1AE127AC8 /* ZZFadeAnimationScrollView.xcconfig */,
+				18029E4DC001E21FEC14B9DFE0C9527D /* ZZFadeAnimationScrollView-dummy.m */,
+				B3CEB5D134DFBF30159A5E410EB43874 /* ZZFadeAnimationScrollView-prefix.pch */,
+				76F78214AA72E81ABEFD46867CDF0DBA /* ZZFadeAnimationScrollView-umbrella.h */,
 			);
-			name = iOS;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ZZFadeAnimationScrollView";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		A303BBD18A6112EDD2FCD577704EA1FB /* Headers */ = {
+		095404ED0FB16351024F76BADD244CB2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAE36CEC12962BF8317B1C9FE0FF6616 /* ZZFadeAnimationScrollView-umbrella.h in Headers */,
+				28049BA5607DB744103594DAB6CA641F /* ZZCollectionFadeCell.h in Headers */,
+				9C19A474EC98442D201BDC098E7C2921 /* ZZFadeAnimationScrollView-umbrella.h in Headers */,
+				2D9FE29D08A156394E4746C024A5FAA8 /* ZZFadeAnimationScrollView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B1F78D7746140F37FFF956CCB2851B6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8904E08885690DA324AA05AA7C82C45 /* NSButton+WebCache.h in Headers */,
+				8CEF5F86A6A9261FF2DB89B11CD4EEBB /* NSData+ImageContentType.h in Headers */,
+				45027EAB87158F27FA6DD17A1E8FDB5A /* NSImage+WebCache.h in Headers */,
+				CE72A73FC9C6E58F7E904D43BC8EF34C /* SDAnimatedImageRep.h in Headers */,
+				BA1AEC9B0063A876EF308CC771E6DC09 /* SDImageCache.h in Headers */,
+				E050643021F241D7099ACEE3FD1D312B /* SDImageCacheConfig.h in Headers */,
+				32802C53BEE446069EF86A2ED32026C1 /* SDWebImage-umbrella.h in Headers */,
+				41DE0FDCB30EEC30555D6F5BB56FB7D3 /* SDWebImageCoder.h in Headers */,
+				4514279F67EDF8982C7B011E3924576F /* SDWebImageCoderHelper.h in Headers */,
+				7A3EA03028A5F25E5D937C521AAE2CF2 /* SDWebImageCodersManager.h in Headers */,
+				2E41E91DCA293ED3048B3D235453F113 /* SDWebImageCompat.h in Headers */,
+				0596CFD5902D44BB3664331337A29918 /* SDWebImageDownloader.h in Headers */,
+				6729576210CE7482904D989225F6F1D6 /* SDWebImageDownloaderOperation.h in Headers */,
+				26DEF03E9188A051EB327E510E42E95B /* SDWebImageFrame.h in Headers */,
+				F839AE7BA527C7F260281593C1D47491 /* SDWebImageGIFCoder.h in Headers */,
+				3E956E9BA00AF735D71A2CBCCAA997D3 /* SDWebImageImageIOCoder.h in Headers */,
+				D74CDB3FA796FDC205DC83C5097716EE /* SDWebImageManager.h in Headers */,
+				90C61CB0A107A55BBF2D1E93A3265CC5 /* SDWebImageOperation.h in Headers */,
+				6AB94A5A75FF3ADCC05379FEF7D11F8A /* SDWebImagePrefetcher.h in Headers */,
+				930085DA8D7B49F8C9BBB1787F88038F /* SDWebImageTransition.h in Headers */,
+				D4DA36B0259156499FAA54856C2C70AA /* UIButton+WebCache.h in Headers */,
+				09B50141293A87152CB2AEEFBD45E607 /* UIImage+ForceDecode.h in Headers */,
+				2D676337F4F88EA15E01B889E9A16856 /* UIImage+GIF.h in Headers */,
+				CD898EDA16598BACC1848F0A00DD6F90 /* UIImage+MultiFormat.h in Headers */,
+				F8F2C668CD63A2242862D6DB34381C83 /* UIImageView+HighlightedWebCache.h in Headers */,
+				8E6A9BE392D65F71C77EB24754D1291E /* UIImageView+WebCache.h in Headers */,
+				F777B1529ACB752142ECDF1217366BD6 /* UIView+WebCache.h in Headers */,
+				D078E8E2CDA28324BE96212D97549EE3 /* UIView+WebCacheOperation.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EB805ED6566CB66B6D9BC02A48D12BC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DB09DD0701F89E4533557858E1F79E5 /* Pods-ZZFadeAnimationScrollView_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,32 +539,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EAA4698BA50260C643DB75B7526B7CE5 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				96B9B3886F83E8B1034D92F78809AB4A /* Pods-ZZFadeAnimationScrollView_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		1132BC86CE8A2A7F97D43B4B9213CE6F /* ZZFadeAnimationScrollView */ = {
+		9A731E092EC121CEC9B7E4E369C3DD06 /* SDWebImage */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F2AB3C19D9060915DC9D64F315BE0667 /* Build configuration list for PBXNativeTarget "ZZFadeAnimationScrollView" */;
+			buildConfigurationList = 57EC14BE7B598FB84AF9C9AB0BCFE685 /* Build configuration list for PBXNativeTarget "SDWebImage" */;
 			buildPhases = (
-				C674CD13C88764BA500827055797D4C3 /* Sources */,
-				96568247958DC349802A4B9747299E6F /* Frameworks */,
-				A303BBD18A6112EDD2FCD577704EA1FB /* Headers */,
+				207B5ECBC1A617F96599BEB04FD848DB /* Sources */,
+				74611D67B2AE9A10D102DD47CD6BB390 /* Frameworks */,
+				7B1F78D7746140F37FFF956CCB2851B6 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = ZZFadeAnimationScrollView;
-			productName = ZZFadeAnimationScrollView;
-			productReference = CAA21930F93C56684F681285C1CECED1 /* ZZFadeAnimationScrollView.framework */;
+			name = SDWebImage;
+			productName = SDWebImage;
+			productReference = 413AA91EA703578C1616BBF32A54341A /* SDWebImage.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		A05B2E7506523DDC3D24C8528632578B /* Pods-ZZFadeAnimationScrollView_Tests */ = {
@@ -289,25 +574,44 @@
 			);
 			name = "Pods-ZZFadeAnimationScrollView_Tests";
 			productName = "Pods-ZZFadeAnimationScrollView_Tests";
-			productReference = 1EBB7A656AA254372DD05A7270D98B9A /* Pods_ZZFadeAnimationScrollView_Tests.framework */;
+			productReference = FFAB6367A50948E283315B28A5B4EDBF /* Pods_ZZFadeAnimationScrollView_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		B418243188BF11C56F5D8D4990EDEA3A /* Pods-ZZFadeAnimationScrollView_Example */ = {
+		E6D3182F5367883F9601300DAA0C6205 /* Pods-ZZFadeAnimationScrollView_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6204F67BBE01212FF6349AA9C0B4C7AA /* Build configuration list for PBXNativeTarget "Pods-ZZFadeAnimationScrollView_Example" */;
+			buildConfigurationList = 84F28E20E8E6ACC7214F8EAD8A9508BF /* Build configuration list for PBXNativeTarget "Pods-ZZFadeAnimationScrollView_Example" */;
 			buildPhases = (
-				93527BE314CD3000AA446739171D645F /* Sources */,
-				B589A692834DF43FD5F7F15122815651 /* Frameworks */,
-				EAA4698BA50260C643DB75B7526B7CE5 /* Headers */,
+				DA1EFE24A5B368F5F90025C67ED69404 /* Sources */,
+				41FFC6321F48CAD3C35C1F3CB58D83B0 /* Frameworks */,
+				8EB805ED6566CB66B6D9BC02A48D12BC /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				27112049DBDB5E7AD671F9B8910984CC /* PBXTargetDependency */,
+				B93BA4F6F3B07B7DE3A07FF4F2EED7A4 /* PBXTargetDependency */,
+				75C7371EF84839DE328E589AA65B141D /* PBXTargetDependency */,
 			);
 			name = "Pods-ZZFadeAnimationScrollView_Example";
 			productName = "Pods-ZZFadeAnimationScrollView_Example";
-			productReference = 254A9DD9811E439D4B6CEB5AB2E62359 /* Pods_ZZFadeAnimationScrollView_Example.framework */;
+			productReference = 1E46519280EA234CF167FD77F64DADD2 /* Pods_ZZFadeAnimationScrollView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FB342BF5BEE7A83421094558BFBC3F00 /* ZZFadeAnimationScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6B4D5962D25FD1309F035D82D5E5F99 /* Build configuration list for PBXNativeTarget "ZZFadeAnimationScrollView" */;
+			buildPhases = (
+				C0160DD31DA6515C6955F6F4821F1AD6 /* Sources */,
+				1FF18628860454D9C5C1E89BB5533B85 /* Frameworks */,
+				095404ED0FB16351024F76BADD244CB2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				308EC197327E62711AA1ED8D73948879 /* PBXTargetDependency */,
+			);
+			name = ZZFadeAnimationScrollView;
+			productName = ZZFadeAnimationScrollView;
+			productReference = 295CD4D64B68F264572132B1AEBD64C6 /* ZZFadeAnimationScrollView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -327,32 +631,68 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 2D984BBBB37D1C9CB21685A4BF48F5F2 /* Products */;
+			productRefGroup = 62A4E038F4C828324B7221AA28903E9C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B418243188BF11C56F5D8D4990EDEA3A /* Pods-ZZFadeAnimationScrollView_Example */,
+				E6D3182F5367883F9601300DAA0C6205 /* Pods-ZZFadeAnimationScrollView_Example */,
 				A05B2E7506523DDC3D24C8528632578B /* Pods-ZZFadeAnimationScrollView_Tests */,
-				1132BC86CE8A2A7F97D43B4B9213CE6F /* ZZFadeAnimationScrollView */,
+				9A731E092EC121CEC9B7E4E369C3DD06 /* SDWebImage */,
+				FB342BF5BEE7A83421094558BFBC3F00 /* ZZFadeAnimationScrollView */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		93527BE314CD3000AA446739171D645F /* Sources */ = {
+		207B5ECBC1A617F96599BEB04FD848DB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0870E5658FB5598370D3A08B16125851 /* Pods-ZZFadeAnimationScrollView_Example-dummy.m in Sources */,
+				88DDFFF5B20E8347367D062842AE9A93 /* NSButton+WebCache.m in Sources */,
+				7523F5CF4D11630D72104E45234306FF /* NSData+ImageContentType.m in Sources */,
+				C880F0A1097AA8125D6E896F6BDB479B /* NSImage+WebCache.m in Sources */,
+				94304BFAB8D96A15545FB574E4C7C3A4 /* SDAnimatedImageRep.m in Sources */,
+				A41AF799838BBAFC67BAFDE3AE08D8D5 /* SDImageCache.m in Sources */,
+				631F17D10A04077F850AD34C768A1FEE /* SDImageCacheConfig.m in Sources */,
+				0E3207255EA1D839832B5E63FA5EA0AF /* SDWebImage-dummy.m in Sources */,
+				0840432A28694CA589E962C4B1823C1D /* SDWebImageCoder.m in Sources */,
+				55D47B299F3D31DE9D3030C29C742430 /* SDWebImageCoderHelper.m in Sources */,
+				71FAAE391502473A29DD17DADD37B544 /* SDWebImageCodersManager.m in Sources */,
+				382C4E650377D0D7F18230AEA9111666 /* SDWebImageCompat.m in Sources */,
+				6FA9B0E057CA6EEF1F0D5B69E753D46B /* SDWebImageDownloader.m in Sources */,
+				E462A27AFFEA0EDBB14D2A6FAC9C798F /* SDWebImageDownloaderOperation.m in Sources */,
+				E5ABC05329FADE7223FE611F14934E59 /* SDWebImageFrame.m in Sources */,
+				450108D06012F14F8927E00D1C2E24E3 /* SDWebImageGIFCoder.m in Sources */,
+				D34CEAC497ACCFAC1C79334BD2219CA4 /* SDWebImageImageIOCoder.m in Sources */,
+				75D9F5A6BB60C014C24AB075CDF041C0 /* SDWebImageManager.m in Sources */,
+				97C20557F348C280D5EA2BB4F2B01027 /* SDWebImagePrefetcher.m in Sources */,
+				E13CEA7B1C81BF50776F9F6EA0EFE34E /* SDWebImageTransition.m in Sources */,
+				E56B905AD827B0CE59209FB82DC44924 /* UIButton+WebCache.m in Sources */,
+				71C8953C0DB6169359B0DD0006EE2DFA /* UIImage+ForceDecode.m in Sources */,
+				39FA5CCC8950CF38B0B4261C19CAA1AA /* UIImage+GIF.m in Sources */,
+				ACF91BBA8F1E36E209A9C8D7096B11E4 /* UIImage+MultiFormat.m in Sources */,
+				F7F687742E094CEA6EA7FE7CAFEA9688 /* UIImageView+HighlightedWebCache.m in Sources */,
+				165F663662D8891504D21E715FF24D90 /* UIImageView+WebCache.m in Sources */,
+				5D8820F03D7FC7581B63B346B60999C1 /* UIView+WebCache.m in Sources */,
+				AEF24AE02A7E2FD808A09A1059495F32 /* UIView+WebCacheOperation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C674CD13C88764BA500827055797D4C3 /* Sources */ = {
+		C0160DD31DA6515C6955F6F4821F1AD6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4457DD0D8410050A11409E780198A67E /* ReplaceMe.m in Sources */,
-				F071A90486329AA42A3EB97889666565 /* ZZFadeAnimationScrollView-dummy.m in Sources */,
+				0E9268F334B3167D89879DFD763839C9 /* ZZCollectionFadeCell.m in Sources */,
+				6DC48E0FB3CCEDFF2A8CF1616F5CFB7F /* ZZFadeAnimationScrollView-dummy.m in Sources */,
+				5B6F0EF0C629341E2DB5C610645CC326 /* ZZFadeAnimationScrollView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA1EFE24A5B368F5F90025C67ED69404 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF387A40C77C13CA40536E92E729594D /* Pods-ZZFadeAnimationScrollView_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,26 +707,37 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		27112049DBDB5E7AD671F9B8910984CC /* PBXTargetDependency */ = {
+		308EC197327E62711AA1ED8D73948879 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SDWebImage;
+			target = 9A731E092EC121CEC9B7E4E369C3DD06 /* SDWebImage */;
+			targetProxy = 263FBAC414933AF91851D354167212AD /* PBXContainerItemProxy */;
+		};
+		75C7371EF84839DE328E589AA65B141D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ZZFadeAnimationScrollView;
-			target = 1132BC86CE8A2A7F97D43B4B9213CE6F /* ZZFadeAnimationScrollView */;
-			targetProxy = 814E1C55D87C91C7BE5DB0DEBE136EE7 /* PBXContainerItemProxy */;
+			target = FB342BF5BEE7A83421094558BFBC3F00 /* ZZFadeAnimationScrollView */;
+			targetProxy = 7B0D2DF8F2DF5A823706FC20C02B5BB2 /* PBXContainerItemProxy */;
 		};
 		B46F2B056590D56E6774B98B4A699143 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-ZZFadeAnimationScrollView_Example";
-			target = B418243188BF11C56F5D8D4990EDEA3A /* Pods-ZZFadeAnimationScrollView_Example */;
+			target = E6D3182F5367883F9601300DAA0C6205 /* Pods-ZZFadeAnimationScrollView_Example */;
 			targetProxy = 183A3EF88070D30C479FBADDC31256C7 /* PBXContainerItemProxy */;
+		};
+		B93BA4F6F3B07B7DE3A07FF4F2EED7A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SDWebImage;
+			target = 9A731E092EC121CEC9B7E4E369C3DD06 /* SDWebImage */;
+			targetProxy = C58D6E9B79EE33530D4A4806195247D2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		063AF92DA75974134D73AEB82E1AA491 /* Release */ = {
+		06A43B5EB274A1AB4EF05AECEC5C0494 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C06D8D9E5D8AE52F19E7C2FB3A41BFA3 /* Pods-ZZFadeAnimationScrollView_Example.release.xcconfig */;
+			baseConfigurationReference = FFC3DC18666EE9E6763834DC3D5C2C64 /* SDWebImage.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -396,53 +747,17 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ZZFadeAnimationScrollView_Example/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SDWebImage/SDWebImage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SDWebImage/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ZZFadeAnimationScrollView_Example/Pods-ZZFadeAnimationScrollView_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/SDWebImage/SDWebImage.modulemap";
+				PRODUCT_MODULE_NAME = SDWebImage;
+				PRODUCT_NAME = SDWebImage;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		11FF09CBD189CCED10250328193F6418 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1242F89612D7DEF5100D47077ADBB8CC /* Pods-ZZFadeAnimationScrollView_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ZZFadeAnimationScrollView_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ZZFadeAnimationScrollView_Example/Pods-ZZFadeAnimationScrollView_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -512,9 +827,40 @@
 			};
 			name = Debug;
 		};
-		55936163C4A9F7F5E8635A1466195A76 /* Release */ = {
+		4AB6F25481BB615C1358CFC7DC24DB04 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 962565D7B0671B016490B9624486E460 /* ZZFadeAnimationScrollView.xcconfig */;
+			baseConfigurationReference = FFC3DC18666EE9E6763834DC3D5C2C64 /* SDWebImage.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SDWebImage/SDWebImage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SDWebImage/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SDWebImage/SDWebImage.modulemap";
+				PRODUCT_MODULE_NAME = SDWebImage;
+				PRODUCT_NAME = SDWebImage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		680EA1F38BBA6EB616EB79B017C85FCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C65814D2C827777A31CF01F1AE127AC8 /* ZZFadeAnimationScrollView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -536,6 +882,73 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7ADE290A141FE8CBB6D584DE1AFFFA3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1242F89612D7DEF5100D47077ADBB8CC /* Pods-ZZFadeAnimationScrollView_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZZFadeAnimationScrollView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZZFadeAnimationScrollView_Example/Pods-ZZFadeAnimationScrollView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A8F25C79F2D139FD4223B1BAA3D46341 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C06D8D9E5D8AE52F19E7C2FB3A41BFA3 /* Pods-ZZFadeAnimationScrollView_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZZFadeAnimationScrollView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZZFadeAnimationScrollView_Example/Pods-ZZFadeAnimationScrollView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -576,36 +989,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		BA88F5F6FBE9682D3D92E0BDE3181964 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 962565D7B0671B016490B9624486E460 /* ZZFadeAnimationScrollView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ZZFadeAnimationScrollView/ZZFadeAnimationScrollView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ZZFadeAnimationScrollView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ZZFadeAnimationScrollView/ZZFadeAnimationScrollView.modulemap";
-				PRODUCT_MODULE_NAME = ZZFadeAnimationScrollView;
-				PRODUCT_NAME = ZZFadeAnimationScrollView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		BADEA249028C5907FCA216CDAD4D2DC7 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -698,6 +1081,36 @@
 			};
 			name = Release;
 		};
+		FB0B36E6C4FD700D723093338513C6C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C65814D2C827777A31CF01F1AE127AC8 /* ZZFadeAnimationScrollView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZZFadeAnimationScrollView/ZZFadeAnimationScrollView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZZFadeAnimationScrollView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZZFadeAnimationScrollView/ZZFadeAnimationScrollView.modulemap";
+				PRODUCT_MODULE_NAME = ZZFadeAnimationScrollView;
+				PRODUCT_NAME = ZZFadeAnimationScrollView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -710,20 +1123,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6204F67BBE01212FF6349AA9C0B4C7AA /* Build configuration list for PBXNativeTarget "Pods-ZZFadeAnimationScrollView_Example" */ = {
+		57EC14BE7B598FB84AF9C9AB0BCFE685 /* Build configuration list for PBXNativeTarget "SDWebImage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				11FF09CBD189CCED10250328193F6418 /* Debug */,
-				063AF92DA75974134D73AEB82E1AA491 /* Release */,
+				06A43B5EB274A1AB4EF05AECEC5C0494 /* Debug */,
+				4AB6F25481BB615C1358CFC7DC24DB04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F2AB3C19D9060915DC9D64F315BE0667 /* Build configuration list for PBXNativeTarget "ZZFadeAnimationScrollView" */ = {
+		84F28E20E8E6ACC7214F8EAD8A9508BF /* Build configuration list for PBXNativeTarget "Pods-ZZFadeAnimationScrollView_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BA88F5F6FBE9682D3D92E0BDE3181964 /* Debug */,
-				55936163C4A9F7F5E8635A1466195A76 /* Release */,
+				7ADE290A141FE8CBB6D584DE1AFFFA3F /* Debug */,
+				A8F25C79F2D139FD4223B1BAA3D46341 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6B4D5962D25FD1309F035D82D5E5F99 /* Build configuration list for PBXNativeTarget "ZZFadeAnimationScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB0B36E6C4FD700D723093338513C6C0 /* Debug */,
+				680EA1F38BBA6EB616EB79B017C85FCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "ZZCollectionFadeCell.h"
+#import "ZZFadeAnimationScrollView.h"
 
 FOUNDATION_EXPORT double ZZFadeAnimationScrollViewVersionNumber;
 FOUNDATION_EXPORT const unsigned char ZZFadeAnimationScrollViewVersionString[];

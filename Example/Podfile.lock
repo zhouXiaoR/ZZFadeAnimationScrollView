@@ -1,16 +1,26 @@
 PODS:
-  - ZZFadeAnimationScrollView (0.1.0)
+  - SDWebImage (4.4.3):
+    - SDWebImage/Core (= 4.4.3)
+  - SDWebImage/Core (4.4.3)
+  - ZZFadeAnimationScrollView (0.1.0):
+    - SDWebImage (~> 4.0)
 
 DEPENDENCIES:
+  - SDWebImage (~> 4.0)
   - ZZFadeAnimationScrollView (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SDWebImage
 
 EXTERNAL SOURCES:
   ZZFadeAnimationScrollView:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ZZFadeAnimationScrollView: 854ea8eb9b245193abdce79819fc3c51ecd477a2
+  SDWebImage: c5594f1a19c48d526d321e548902b56b479cd508
+  ZZFadeAnimationScrollView: f9a83cbd03f0f42c92e6574009b6e2e73ef91a73
 
-PODFILE CHECKSUM: b8306731141b3993617786d324ecd51cbe6f45d1
+PODFILE CHECKSUM: 5c69e482ea00052289c92cb892ea9f36a3607be4
 
 COCOAPODS: 1.5.3

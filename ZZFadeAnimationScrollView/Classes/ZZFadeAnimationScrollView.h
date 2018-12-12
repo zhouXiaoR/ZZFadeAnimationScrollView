@@ -32,7 +32,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface ZZFadeAnimationScrollView : UIView
 
-@property(nonatomic,strong)NSArray <NSString *>*URLs;
+@property(nonatomic,strong)NSArray <NSURL *>*URLs;
 
 @property(nonatomic,assign)CGFloat animationScale;
 

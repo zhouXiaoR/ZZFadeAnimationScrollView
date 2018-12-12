@@ -28,13 +28,15 @@
     av.placeViewAnimationOption = ZZPlaceViewAnimationOptionAlpha | ZZPlaceViewAnimationOptionScale;
     [self.view addSubview:av];
 
-    //  这里暂时取本地图片
-    NSString * path0 = [[NSBundle mainBundle]pathForResource:@"0.jpg" ofType:nil];
-    NSString * path1 = [[NSBundle mainBundle]pathForResource:@"1.jpg" ofType:nil];
-    NSString * path2 = [[NSBundle mainBundle]pathForResource:@"2.jpg" ofType:nil];
-    NSString * path3 = [[NSBundle mainBundle]pathForResource:@"3.jpg" ofType:nil];
-    NSString * path4 = [[NSBundle mainBundle]pathForResource:@"4.jpg" ofType:nil];
-    av.URLs = @[path0,path1,path2,path3,path4];
+    NSString * path0 = @"http://img3.imgtn.bdimg.com/it/u=555355341,1991866122&fm=26&gp=0.jpg";
+    NSString * path1 = @"http://img1.imgtn.bdimg.com/it/u=2897148561,2392818500&fm=26&gp=0.jpg";
+    NSString * path2 = @"http://img5.imgtn.bdimg.com/it/u=1018416196,4262336975&fm=26&gp=0.jpg";
+    NSString * path3 = @"http://img1.imgtn.bdimg.com/it/u=1449119497,4241614660&fm=26&gp=0.jpg";
+    NSString * path4 = @"http://img3.imgtn.bdimg.com/it/u=933174695,1351199266&fm=26&gp=0.jpg";
+    NSString * path5 = @"http://img2.imgtn.bdimg.com/it/u=1434322746,2969731710&fm=26&gp=0.jpg";
+     NSString * path6 = @"http://img3.imgtn.bdimg.com/it/u=1285197349,1557335780&fm=26&gp=0.jpg";
+
+    av.URLs = @[path0,path1,path2,path3,path4,path5,path6];
 }
 
 - (UIView *)fadeAnimationView:(ZZFadeAnimationScrollView *)fadeScrollView indexPath:(NSIndexPath *)indexPath{

@@ -1,8 +1,7 @@
 {
   "name": "ZZFadeAnimationScrollView",
   "version": "0.1.0",
-  "summary": "A short description of ZZFadeAnimationScrollView.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "淘宝二楼，渐变滚动视图效果",
   "homepage": "https://github.com/zhouXiaoR/ZZFadeAnimationScrollView",
   "license": {
     "type": "MIT",
@@ -18,5 +17,11 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "ZZFadeAnimationScrollView/Classes/**/*"
+  "requires_arc": true,
+  "source_files": "ZZFadeAnimationScrollView/Classes/**/*",
+  "dependencies": {
+    "SDWebImage": [
+      "~> 4.0"
+    ]
+  }
 }
