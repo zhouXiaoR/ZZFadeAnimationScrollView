@@ -10,7 +10,7 @@
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 运行效果:
-[运行效果图](/Example/ZZFadeAnimationScrollView/Resources/Untitled2.gif);
+![运行效果图](/Example/ZZFadeAnimationScrollView/Resources/Untitled2.gif);
 
 ## Requirements
 
