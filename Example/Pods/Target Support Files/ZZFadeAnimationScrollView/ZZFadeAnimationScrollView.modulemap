@@ -1,0 +1,6 @@
+framework module ZZFadeAnimationScrollView {
+  umbrella header "ZZFadeAnimationScrollView-umbrella.h"
+
+  export *
+  module * { export * }
+}

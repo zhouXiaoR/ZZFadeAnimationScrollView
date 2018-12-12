@@ -21,6 +21,13 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		69AFD0E821C0F20800D7B7E7 /* ZZFadeAnimationScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 69AFD0E721C0F20800D7B7E7 /* ZZFadeAnimationScrollView.m */; };
+		69AFD0EB21C0F50800D7B7E7 /* ZZCollectionFadeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 69AFD0EA21C0F50800D7B7E7 /* ZZCollectionFadeCell.m */; };
+		69AFD0FA21C106B900D7B7E7 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69AFD0F521C106B800D7B7E7 /* 2.jpg */; };
+		69AFD0FB21C106B900D7B7E7 /* 0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69AFD0F621C106B800D7B7E7 /* 0.jpg */; };
+		69AFD0FC21C106B900D7B7E7 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69AFD0F721C106B800D7B7E7 /* 3.jpg */; };
+		69AFD0FD21C106B900D7B7E7 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69AFD0F821C106B900D7B7E7 /* 4.jpg */; };
+		69AFD0FE21C106B900D7B7E7 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69AFD0F921C106B900D7B7E7 /* 1.jpg */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		77E7317398DA4F02420A40E0 /* Pods_ZZFadeAnimationScrollView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F8B252141AA2275FDF6BDD2 /* Pods_ZZFadeAnimationScrollView_Tests.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
@@ -38,8 +45,8 @@
 
 /* Begin PBXFileReference section */
 		05C9D39D697B98EBFEEBCAAC /* Pods-ZZFadeAnimationScrollView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZFadeAnimationScrollView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZZFadeAnimationScrollView_Example/Pods-ZZFadeAnimationScrollView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		1A572DD25AD14082D3BBD53E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		594826CE75D3C96BD6D92DE5 /* ZZFadeAnimationScrollView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ZZFadeAnimationScrollView.podspec; path = ../ZZFadeAnimationScrollView.podspec; sourceTree = "<group>"; };
+		1A572DD25AD14082D3BBD53E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		594826CE75D3C96BD6D92DE5 /* ZZFadeAnimationScrollView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZZFadeAnimationScrollView.podspec; path = ../ZZFadeAnimationScrollView.podspec; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* ZZFadeAnimationScrollView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZZFadeAnimationScrollView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -59,6 +66,15 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		69AFD0E621C0F20800D7B7E7 /* ZZFadeAnimationScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZFadeAnimationScrollView.h; sourceTree = "<group>"; };
+		69AFD0E721C0F20800D7B7E7 /* ZZFadeAnimationScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZFadeAnimationScrollView.m; sourceTree = "<group>"; };
+		69AFD0E921C0F50800D7B7E7 /* ZZCollectionFadeCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZCollectionFadeCell.h; sourceTree = "<group>"; };
+		69AFD0EA21C0F50800D7B7E7 /* ZZCollectionFadeCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZCollectionFadeCell.m; sourceTree = "<group>"; };
+		69AFD0F521C106B800D7B7E7 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		69AFD0F621C106B800D7B7E7 /* 0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0.jpg; sourceTree = "<group>"; };
+		69AFD0F721C106B800D7B7E7 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		69AFD0F821C106B900D7B7E7 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		69AFD0F921C106B900D7B7E7 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8991422253C0736D538ACEFE /* Pods-ZZFadeAnimationScrollView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZFadeAnimationScrollView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZZFadeAnimationScrollView_Example/Pods-ZZFadeAnimationScrollView_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -66,7 +82,7 @@
 		A2A3FD4180BB2172D70C5028 /* Pods-ZZFadeAnimationScrollView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZFadeAnimationScrollView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZZFadeAnimationScrollView_Tests/Pods-ZZFadeAnimationScrollView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		CD9502DDA7AF451F8EE19731 /* Pods-ZZFadeAnimationScrollView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZFadeAnimationScrollView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZZFadeAnimationScrollView_Tests/Pods-ZZFadeAnimationScrollView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E5312601AF1BD7C4469FCC14 /* Pods_ZZFadeAnimationScrollView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZZFadeAnimationScrollView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FE0E1D41D9EBBB618661CCB1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		FE0E1D41D9EBBB618661CCB1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +148,8 @@
 		6003F593195388D20070C39A /* Example for ZZFadeAnimationScrollView */ = {
 			isa = PBXGroup;
 			children = (
+				69AFD0F421C106AA00D7B7E7 /* Resources */,
+				69AFD0E521C0F13000D7B7E7 /* ZZFadeAnimationScrollView */,
 				6003F59C195388D20070C39A /* ZZAppDelegate.h */,
 				6003F59D195388D20070C39A /* ZZAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -183,6 +201,29 @@
 				1A572DD25AD14082D3BBD53E /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		69AFD0E521C0F13000D7B7E7 /* ZZFadeAnimationScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				69AFD0E621C0F20800D7B7E7 /* ZZFadeAnimationScrollView.h */,
+				69AFD0E721C0F20800D7B7E7 /* ZZFadeAnimationScrollView.m */,
+				69AFD0E921C0F50800D7B7E7 /* ZZCollectionFadeCell.h */,
+				69AFD0EA21C0F50800D7B7E7 /* ZZCollectionFadeCell.m */,
+			);
+			name = ZZFadeAnimationScrollView;
+			sourceTree = "<group>";
+		};
+		69AFD0F421C106AA00D7B7E7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				69AFD0F621C106B800D7B7E7 /* 0.jpg */,
+				69AFD0F921C106B900D7B7E7 /* 1.jpg */,
+				69AFD0F521C106B800D7B7E7 /* 2.jpg */,
+				69AFD0F721C106B800D7B7E7 /* 3.jpg */,
+				69AFD0F821C106B900D7B7E7 /* 4.jpg */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		7B5BA9F2B2358E4CE5CA3849 /* Pods */ = {
@@ -247,6 +288,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = zhouXiaoR;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = VM5LLSM496;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -276,10 +320,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69AFD0FA21C106B900D7B7E7 /* 2.jpg in Resources */,
+				69AFD0FE21C106B900D7B7E7 /* 1.jpg in Resources */,
+				69AFD0FC21C106B900D7B7E7 /* 3.jpg in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				69AFD0FB21C106B900D7B7E7 /* 0.jpg in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				69AFD0FD21C106B900D7B7E7 /* 4.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,6 +404,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69AFD0E821C0F20800D7B7E7 /* ZZFadeAnimationScrollView.m in Sources */,
+				69AFD0EB21C0F50800D7B7E7 /* ZZCollectionFadeCell.m in Sources */,
 				6003F59E195388D20070C39A /* ZZAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* ZZViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
@@ -485,6 +536,7 @@
 			baseConfigurationReference = 05C9D39D697B98EBFEEBCAAC /* Pods-ZZFadeAnimationScrollView_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VM5LLSM496;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZZFadeAnimationScrollView/ZZFadeAnimationScrollView-Prefix.pch";
 				INFOPLIST_FILE = "ZZFadeAnimationScrollView/ZZFadeAnimationScrollView-Info.plist";
@@ -500,6 +552,7 @@
 			baseConfigurationReference = 8991422253C0736D538ACEFE /* Pods-ZZFadeAnimationScrollView_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VM5LLSM496;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZZFadeAnimationScrollView/ZZFadeAnimationScrollView-Prefix.pch";
 				INFOPLIST_FILE = "ZZFadeAnimationScrollView/ZZFadeAnimationScrollView-Info.plist";

@@ -1,0 +1,16 @@
+PODS:
+  - ZZFadeAnimationScrollView (0.1.0)
+
+DEPENDENCIES:
+  - ZZFadeAnimationScrollView (from `../`)
+
+EXTERNAL SOURCES:
+  ZZFadeAnimationScrollView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZZFadeAnimationScrollView: 854ea8eb9b245193abdce79819fc3c51ecd477a2
+
+PODFILE CHECKSUM: b8306731141b3993617786d324ecd51cbe6f45d1
+
+COCOAPODS: 1.5.3

@@ -1,0 +1,6 @@
+framework module Pods_ZZFadeAnimationScrollView_Tests {
+  umbrella header "Pods-ZZFadeAnimationScrollView_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
