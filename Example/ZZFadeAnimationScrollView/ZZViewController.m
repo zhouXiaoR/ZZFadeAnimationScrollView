@@ -37,8 +37,6 @@
      NSString * path6 = @"http://img3.imgtn.bdimg.com/it/u=1285197349,1557335780&fm=26&gp=0.jpg";
 
     av.URLs = @[path0,path1,path2,path3,path4,path5,path6];
-    NSLog(@"url---%@",av.URLs);
-    NSLog(@"ZZDevelopTwo-1");
 }
 
 - (UIView *)fadeAnimationView:(ZZFadeAnimationScrollView *)fadeScrollView indexPath:(NSIndexPath *)indexPath{
