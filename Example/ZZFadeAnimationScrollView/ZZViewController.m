@@ -38,6 +38,7 @@
 
     av.URLs = @[path0,path1,path2,path3,path4,path5,path6];
     NSLog(@"url---%@",av.URLs);
+    NSLog(@"ZZDevelopTwo-1");
 }
 
 - (UIView *)fadeAnimationView:(ZZFadeAnimationScrollView *)fadeScrollView indexPath:(NSIndexPath *)indexPath{
