@@ -24,7 +24,7 @@
     av.frame = CGRectMake(10, 100, 200, 150);
     av.animationScale = 1.0f;
     av.animationScrollDataSoure = self;
-    av.pageAnimationVisiableOffset = 200.0f;
+    av.pageAnimationVisiableOffset = 100.0f;
     av.placeViewAnimationOption = ZZPlaceViewAnimationOptionAlpha | ZZPlaceViewAnimationOptionScale;
     [self.view addSubview:av];
 
@@ -37,6 +37,7 @@
      NSString * path6 = @"http://img3.imgtn.bdimg.com/it/u=1285197349,1557335780&fm=26&gp=0.jpg";
 
     av.URLs = @[path0,path1,path2,path3,path4,path5,path6];
+    NSLog(@"url---%@",av.URLs);
 }
 
 - (UIView *)fadeAnimationView:(ZZFadeAnimationScrollView *)fadeScrollView indexPath:(NSIndexPath *)indexPath{
