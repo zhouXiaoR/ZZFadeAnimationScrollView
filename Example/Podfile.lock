@@ -2,7 +2,7 @@ PODS:
   - SDWebImage (4.4.3):
     - SDWebImage/Core (= 4.4.3)
   - SDWebImage/Core (4.4.3)
-  - ZZFadeAnimationScrollView (0.1.0):
+  - ZZFadeAnimationScrollView (0.2):
     - SDWebImage (~> 4.0)
 
 DEPENDENCIES:
@@ -19,7 +19,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   SDWebImage: c5594f1a19c48d526d321e548902b56b479cd508
-  ZZFadeAnimationScrollView: f9a83cbd03f0f42c92e6574009b6e2e73ef91a73
+  ZZFadeAnimationScrollView: cf5b7a7b7dda3af41896e957c2a1da53bde686bf
 
 PODFILE CHECKSUM: 5c69e482ea00052289c92cb892ea9f36a3607be4
 

@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'ZZFadeAnimationScrollView'
-  s.version          = '0.2'
+  s.version          = '0.2.1'
   s.summary          = '淘宝二楼，渐变滚动视图效果'
   s.homepage         = 'https://github.com/zhouXiaoR/ZZFadeAnimationScrollView'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }

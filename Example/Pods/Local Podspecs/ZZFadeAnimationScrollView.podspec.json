@@ -1,6 +1,6 @@
 {
   "name": "ZZFadeAnimationScrollView",
-  "version": "0.1.0",
+  "version": "0.2",
   "summary": "淘宝二楼，渐变滚动视图效果",
   "homepage": "https://github.com/zhouXiaoR/ZZFadeAnimationScrollView",
   "license": {
@@ -12,7 +12,7 @@
   },
   "source": {
     "git": "https://github.com/zhouXiaoR/ZZFadeAnimationScrollView.git",
-    "tag": "0.1.0"
+    "tag": "0.2"
   },
   "platforms": {
     "ios": "8.0"

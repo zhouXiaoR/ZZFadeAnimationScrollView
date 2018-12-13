@@ -21,7 +21,7 @@
 	// Do any additional setup after loading the view, typically from a nib.
 
     ZZFadeAnimationScrollView * av = [[ZZFadeAnimationScrollView alloc]init];
-    av.frame = self.view.bounds;
+    av.frame = CGRectMake(10, 100, 200, 150);
     av.animationScale = 1.0f;
     av.animationScrollDataSoure = self;
     av.pageAnimationVisiableOffset = 200.0f;

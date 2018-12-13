@@ -20,7 +20,6 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		6565141922769D8FCE97F4C7 /* Pods_ZZFadeAnimationScrollView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE3958C0F7BB1D25BC8D4FA4 /* Pods_ZZFadeAnimationScrollView_Example.framework */; };
 		69AFD0FA21C106B900D7B7E7 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69AFD0F521C106B800D7B7E7 /* 2.jpg */; };
 		69AFD0FB21C106B900D7B7E7 /* 0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69AFD0F621C106B800D7B7E7 /* 0.jpg */; };
 		69AFD0FC21C106B900D7B7E7 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69AFD0F721C106B800D7B7E7 /* 3.jpg */; };
@@ -30,6 +29,7 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		77E7317398DA4F02420A40E0 /* Pods_ZZFadeAnimationScrollView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F8B252141AA2275FDF6BDD2 /* Pods_ZZFadeAnimationScrollView_Tests.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		96087C23EBC5B345DCA09883 /* Pods_ZZFadeAnimationScrollView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3598BFBF490B5189EC6534DE /* Pods_ZZFadeAnimationScrollView_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +45,7 @@
 /* Begin PBXFileReference section */
 		05C9D39D697B98EBFEEBCAAC /* Pods-ZZFadeAnimationScrollView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZFadeAnimationScrollView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZZFadeAnimationScrollView_Example/Pods-ZZFadeAnimationScrollView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		1A572DD25AD14082D3BBD53E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		3598BFBF490B5189EC6534DE /* Pods_ZZFadeAnimationScrollView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZZFadeAnimationScrollView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		594826CE75D3C96BD6D92DE5 /* ZZFadeAnimationScrollView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZZFadeAnimationScrollView.podspec; path = ../ZZFadeAnimationScrollView.podspec; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* ZZFadeAnimationScrollView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZZFadeAnimationScrollView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -77,7 +78,6 @@
 		8F8B252141AA2275FDF6BDD2 /* Pods_ZZFadeAnimationScrollView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZZFadeAnimationScrollView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2A3FD4180BB2172D70C5028 /* Pods-ZZFadeAnimationScrollView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZFadeAnimationScrollView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZZFadeAnimationScrollView_Tests/Pods-ZZFadeAnimationScrollView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		CD9502DDA7AF451F8EE19731 /* Pods-ZZFadeAnimationScrollView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZFadeAnimationScrollView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZZFadeAnimationScrollView_Tests/Pods-ZZFadeAnimationScrollView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		EE3958C0F7BB1D25BC8D4FA4 /* Pods_ZZFadeAnimationScrollView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZZFadeAnimationScrollView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE0E1D41D9EBBB618661CCB1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -89,7 +89,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				6565141922769D8FCE97F4C7 /* Pods_ZZFadeAnimationScrollView_Example.framework in Frameworks */,
+				96087C23EBC5B345DCA09883 /* Pods_ZZFadeAnimationScrollView_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,7 +136,7 @@
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
 				8F8B252141AA2275FDF6BDD2 /* Pods_ZZFadeAnimationScrollView_Tests.framework */,
-				EE3958C0F7BB1D25BC8D4FA4 /* Pods_ZZFadeAnimationScrollView_Example.framework */,
+				3598BFBF490B5189EC6534DE /* Pods_ZZFadeAnimationScrollView_Example.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

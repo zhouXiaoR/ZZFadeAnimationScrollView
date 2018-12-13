@@ -134,9 +134,13 @@ static NSString * const CollectionFadeCellID = @"CollectionFadeCellID";
         _flowLayout.scrollDirection = UICollectionViewScrollDirectionHorizontal;
         _flowLayout.minimumLineSpacing = 0;
         _flowLayout.minimumInteritemSpacing = 0;
-        _flowLayout.itemSize = CGSizeMake([UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height);
+       // _flowLayout.itemSize = CGSizeMake([UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height);
     }
     return _flowLayout;
+}
+
+- (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath{
+    return CGSizeMake(self.bounds.size.width, self.bounds.size.height);
 }
 
 @end
